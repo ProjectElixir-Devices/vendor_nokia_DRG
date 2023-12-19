@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/nokia/DRG
 
 PRODUCT_COPY_FILES += \
+    vendor/nokia/DRG/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/nokia/DRG/proprietary/vendor/bin/TAS2557MSSMono_DRG.ftcfg:$(TARGET_COPY_OUT_VENDOR)/bin/TAS2557MSSMono_DRG.ftcfg \
     vendor/nokia/DRG/proprietary/vendor/etc/acdbdata/DRG/sdm660-snd-card-drg/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/DRG/sdm660-snd-card-drg/Bluetooth_cal.acdb \
     vendor/nokia/DRG/proprietary/vendor/etc/acdbdata/DRG/sdm660-snd-card-drg/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/DRG/sdm660-snd-card-drg/General_cal.acdb \
